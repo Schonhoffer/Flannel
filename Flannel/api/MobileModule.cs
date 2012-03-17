@@ -44,7 +44,7 @@ namespace Flannel.api
 				while (now.DayOfWeek != DayOfWeek.Saturday)
 					now = now.AddDays(1);
 			}
-			now = new DateTime(now.Year, now.Month, now.Day, 17,0,0);
+			now = new DateTime(now.Year, now.Month, now.Day, 20,0,0);
 			return now.ToString("yyyy-MM-dd HH:mm:ss");
 		}
 

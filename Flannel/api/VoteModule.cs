@@ -16,7 +16,7 @@ namespace Flannel.api
 		{
 			try
 			{
-				if (!Request.Form.SubmissionID.HasValue())
+				if (!Request.Form.SubmissionID.HasValue)
 					return Response.AsJson("No ID", HttpStatusCode.BadRequest);
 
 				var id = Guid.Parse(Request.Form.SubmissionID.Value);

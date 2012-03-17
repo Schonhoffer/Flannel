@@ -13,7 +13,7 @@
     </form>
 	
 	<form method="post" action="/api/voteup" >
-		<input type="hidden" name="SubscriptionID" value="8f4e0f4b-12a1-4cfe-b95c-0dabaf263b0b"/>
+		<input type="hidden" name="SubmissionID" value="8f4e0f4b-12a1-4cfe-b95c-0dabaf263b0b"/>
 		<input type="submit"/>
     </form>
 </asp:Content>

@@ -74,7 +74,7 @@ namespace Flannel.api
 					.SetMaxResults(1)
 					.List<Submission>()
 					.FirstOrDefault();
-			}
+			}//
 			return submission;
 		}
 

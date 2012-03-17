@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Appropriate Temporary Flannel!
+        Appropriate Temporary Flannel!!
     </h2>
     <form method="post" action="/api/submit" enctype="multipart/form-data">
 		<input type="file" name="filename"/>

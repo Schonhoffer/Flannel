@@ -13,7 +13,7 @@ namespace Flannel.Utilities
 {
 	public class MatchEngine : IPixMatch
 	{
-		const double duplicatescore = 20.0;
+		const double duplicatescore = 60;
 
 		readonly string baseApiURL;
 		readonly string userName;
@@ -61,7 +61,7 @@ namespace Flannel.Utilities
 
 			//var searchStreams = new[] { image };
 
-			var responseString = HttpUploadFile(image, string.Format("{0}.jpg", Guid.NewGuid()), apiSearchUrl, "images[0]", "image/jpg", apiParams);
+			var responseString = HttpUploadFile(image, string.Format("{0}.jpg", Guid.NewGuid()), apiSearchUrl, "image", "image/jpg", apiParams);
 
 			// Do things with reponse
 			var results = JsonConvert.DeserializeObject<MatchEngineResponse>(responseString);

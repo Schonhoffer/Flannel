@@ -16,7 +16,7 @@ namespace Flannel.ORM
 
 	public class AppConfig
 	{
-		public virtual int id { get; set; }
+		public virtual int Id { get; set; }
 		public virtual byte AppMode { get; set; }
 	}
 	

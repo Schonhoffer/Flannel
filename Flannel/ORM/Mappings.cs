@@ -21,7 +21,7 @@ namespace Flannel.ORM
 	{
 		public SettingnMap()
 		{
-			Id(x => x.id).GeneratedBy.Identity();
+			Id(x => x.Id).GeneratedBy.Identity();
 			Map(x => x.AppMode);
 		}
 	}

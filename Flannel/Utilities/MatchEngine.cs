@@ -13,7 +13,7 @@ namespace Flannel.Utilities
 {
 	public class MatchEngine : IPixMatch
 	{
-		const double duplicatescore = 30.0;
+		const double duplicatescore = 20.0;
 
 		readonly string baseApiURL;
 		readonly string userName;
